@@ -1,4 +1,5 @@
 name = "pysdb"
+
 import sys
 import os
 import shutil
@@ -144,49 +145,3 @@ def UseStore(storePath):
 	else:
 		sys.exit("The provided directory for UseStore() does not exist!")
 
-
-
-
-
-"""
-def touch(path):
-    with open(path, 'a'):
-        os.utime(path, None)
-
-
- basedir = os.path.dirname(path)
-
-os.path.exists(path)
-
-os.path.isdir(path)
-
-shutil.rmtree(path)
-
-
-with open('states.json') as f:
-	data = json.load(f)
-
-
-with open('__new__sates.json', 'w') as f:
-	json.dump(data, f)
-
-import urllib.request import urlopen
-
-with urlopen(path) as response:
-
-	source  = response.read()
-
-
-	json.dumps()
-	json.loads()
-
- """
-
- """
-	def getPath(self): ( was in Sdb)
-		return self.__sdbPath
-"""	
-
-"""	def getName(self): ( was in SdbStore)
-		return os.path.basename(os.path.normpath(self.__storePath)) # gets path from this/is/a/path
-"""

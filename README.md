@@ -56,7 +56,7 @@ student_record1  = {
 ```
 import pysdb
 
-store = sdb.UseStore('/path/to/DB_STORE/') # use the created store (returns a pointer to store)
+store = pysdb.UseStore('/path/to/DB_STORE/') # use the created store (returns a pointer to store)
 
 store.CreateDB('db') # creates a db in store (returns true or false)
 
