@@ -1,0 +1,6 @@
+/venv/
+/.vscode/
+/sdb_store/
+/dist/
+/sdb.egg-info/
+/build/
