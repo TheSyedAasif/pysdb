@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pysdb",
-    version="0.0.1",
+    version="0.0.2",
     author="Syed Aasif",
     author_email="thesyedaasif@hotmail.com",
     description="A simple lightweight portable, embeddable database library",
